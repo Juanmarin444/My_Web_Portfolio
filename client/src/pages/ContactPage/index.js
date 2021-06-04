@@ -11,7 +11,7 @@ const Contact = () => {
           <h3>Thanks for stopping by! You can contact me using this form or by sending me an email.</h3>
         </div>
 
-        <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
+        <form name="contact v1" method="post" data-netlify="true" onSubmit="submit" netlify>
 
           <input type="hidden" name="form-name" value="contact v1" />
 
