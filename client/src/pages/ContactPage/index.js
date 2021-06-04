@@ -27,9 +27,9 @@ const Contact = () => {
             <textarea name="message" rows="5" cols="50" placeholder="Your message..." ></textarea>
           </label>
 
-          <div>
+          {/* <div>
             <div data-netlify-recaptcha=""></div>
-          </div>
+          </div> */}
 
           <input className="form-submit" type="submit" value="SEND" />
 
