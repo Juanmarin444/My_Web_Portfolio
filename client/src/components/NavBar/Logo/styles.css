@@ -1,0 +1,36 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 200px;
+  min-width: 45px;
+}
+
+.logo-img img {
+  width: 100%;
+  filter: drop-shadow(0 0.2rem .15rem rgba(0, 0, 0, 0.6));
+}
+
+.logo-txt {
+  font-family: 'Audiowide', cursive;
+  font-size: 1.1rem;
+  margin: 0;
+  margin-left: 4px;
+  color: #222;
+  font-weight: 700;
+  min-width:180px;
+}
+
+@media (max-width: 800px) {
+  .logoWrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo-txt {
+    display: none;
+  }
+}

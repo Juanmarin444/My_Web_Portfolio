@@ -1,0 +1,44 @@
+.projects {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+.projects > h1 {
+  padding: 1rem;
+  font-family: 'Gugi', cursive;
+}
+
+.projects__react,
+.projects__django {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .projects {
+    padding: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  .projects {
+    padding: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .projects {
+    padding: 2rem;
+  }
+}
+@media (max-width: 350px) {
+  .projects {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 300px) {
+  .projects {
+    padding: 1rem;
+  }
+}

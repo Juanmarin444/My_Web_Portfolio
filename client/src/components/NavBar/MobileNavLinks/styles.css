@@ -1,0 +1,54 @@
+/**** Typography ****/
+
+.nav-links-container-r a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .125rem;
+}
+
+.nav-links-container-r a:hover,
+.nav-links-container-r a:focus {
+  color: #5f27b2;
+}
+
+.nav-links-container-r ul {
+  list-style: none;
+}
+
+/**** Layout ****/
+
+.nav-links-container-r {
+  display: flex;
+  align-items: center;
+}
+
+.links-wrapper-r {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width:100%;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 3;
+}
+
+.link-item-r {
+  padding: 1.5em;
+}
+
+.link-item-r > a {
+  white-space: nowrap;
+}
+
+.link-r {
+  text-decoration: none;
+  color:inherit;
+  font-size: inherit;
+  text-transform: uppercase;
+}
