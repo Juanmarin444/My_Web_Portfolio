@@ -8,7 +8,7 @@ const Project = ({image, name, description, url}) => {
       <div className="project__info">
         <p className="info__name">{name}</p>
         <p className="info__description">{description}</p>
-        <a href={url} className="info__button">Visit</a>
+        <a href={url} className="info__button" target="_blank" rel="noreferrer">Visit</a>
       </div>
     </div>
   );
