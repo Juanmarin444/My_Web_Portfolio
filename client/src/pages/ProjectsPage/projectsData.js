@@ -2,6 +2,7 @@ import taskManager from '../../images/taskManager.png';
 import courseTracker from '../../images/courseTracker.png';
 import worldClock from '../../images/worldClock.png';
 import weatherApp from '../../images/weatherApp.png';
+import smartShop from '../../images/smartShop.png';
 
 export const taskManagerData = {
   name: "Task Manager",
@@ -26,4 +27,10 @@ export const weatherAppData = {
   image: weatherApp,
   desc: "A weather app for traveling made with react",
   url: "https://weather-app-juanmarin.netlify.app/"
+}
+export const smartShopData = {
+  name: "Smart Shop",
+  image: smartShop,
+  desc: "An ecommerce site made using Mongodb, Express, React, and Node",
+  url: "https://smartshop-jm.herokuapp.com/"
 }
