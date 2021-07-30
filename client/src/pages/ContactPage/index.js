@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact__content">
 
         <div className="get_in_touch">
-          <h3>Thanks for stopping by! You can contact me using this form or by sending me an email.</h3>
+          <h3>Thanks for stopping by! You can contact me using this form. I look forward to hearing from you.</h3>
         </div>
 
         <form name="contact v1" method="post">
