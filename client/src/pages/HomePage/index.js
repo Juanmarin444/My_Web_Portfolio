@@ -1,4 +1,4 @@
-import hero from '../../images/heroLinear.svg';
+// import hero from '../../images/heroLinear.svg';
 import avatar from '../../images/myAvatar.svg';
 import subLogo from '../../images/subLogo.svg';
 import './styles.css';
@@ -16,9 +16,9 @@ const HomePage = () => {
       <div className="homepage__avatar">
         <img src={avatar} alt="An avatar of me" width="300" height="300"/>
       </div>
-      <div className="homepage__hero">
+      {/* <div className="homepage__hero">
         <img src={hero} alt="A desk icon" width="1100" height="440"/>
-      </div>
+      </div> */}
     </div>
   )
 }
