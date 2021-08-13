@@ -1,8 +1,8 @@
 import taskManager from '../../images/taskManager.png';
 import courseTracker from '../../images/courseTracker.png';
-import worldClock from '../../images/worldClock.png';
+import worldClock from '../../images/world-clocks-demo.gif';
 import weatherApp from '../../images/weatherApp.png';
-import smartShop from '../../images/smartShop.png';
+import smartShop from '../../images/smart-shop-demo.gif';
 
 export const taskManagerData = {
   name: "Task Manager",
