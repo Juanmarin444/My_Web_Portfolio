@@ -1,4 +1,4 @@
-import taskManager from '../../images/taskManager.png';
+import taskManager from '../../images/task-manager-demo.gif';
 import courseTracker from '../../images/courseTracker.png';
 import worldClock from '../../images/world-clocks-demo.gif';
 import weatherApp from '../../images/weather-app-demo.gif';
