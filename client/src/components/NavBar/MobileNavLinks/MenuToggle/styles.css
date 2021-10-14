@@ -6,5 +6,5 @@
 .button:focus {
   outline-width: 1px;
   outline-style: dashed;
-  outline-color: red;
+  outline-color: deepskyblue;
 }
