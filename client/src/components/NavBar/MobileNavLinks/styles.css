@@ -2,7 +2,7 @@
 
 .nav-links-container-r a {
   text-decoration: none;
-  color: #222;
+  color: #c2c2c2;
   font-weight: 500;
   font-size: 1rem;
   text-transform: uppercase;
@@ -11,7 +11,7 @@
 
 .nav-links-container-r a:hover,
 .nav-links-container-r a:focus {
-  color: #5f27b2;
+  color: red;
 }
 
 .nav-links-container-r ul {
@@ -29,7 +29,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #202020;
   width:100%;
   flex-direction: column;
   position: absolute;

@@ -7,8 +7,9 @@
 .contact__content {
   display: flex;
   justify-content: space-between;
-  background: #ffffff;
+  background: #202020;
   padding: 1.5rem;
+  border: 2px solid #565656;
   border-radius: 10px;
 }
 
@@ -24,7 +25,7 @@ textarea {
   margin: 8px 0;
   border-radius: 10px;
   border: none;
-  background-color: #f8f8f8;
+  background-color: #c2c2c2;
   font-size: .8rem;
 }
 
@@ -35,7 +36,7 @@ textarea {
   text-decoration: none;
   text-align: center;
   color: #171717;
-  background: #f4f4f4;
+  background: #c2c2c2;
   padding: .6rem 1rem;
   font-size: 1rem;
   font-weight: 700;
@@ -44,7 +45,8 @@ textarea {
 }
 
 .form-submit:hover {
-  background: #BEBEE8;
+  background: crimson;
+  color: white;
 }
 
 .contact h1 {
@@ -53,7 +55,6 @@ textarea {
 
 .contact h3 {
   font-family: 'Gugi', cursive;
-  /* font-family: 'Fira Sans', sans-serif; */
 }
 
 .contact-label {
